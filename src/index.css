@@ -722,6 +722,32 @@ nav {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
+.gallery-header {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  padding: 0 20px;
+}
+
+.gallery-header h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: 5px;
+}
+
+.gallery-header p {
+  color: var(--text-secondary);
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
+}
+
+@media (max-width: 768px) {
+  .gallery-header {
+    top: 40px; /* Moves titles up on mobile */
+  }
+}
+
 /* ================= 3D SCROLL GALLERY ================= */
 .gallery-scroll-wrapper {
   position: relative;

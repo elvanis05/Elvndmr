@@ -355,9 +355,9 @@ const Gallery = () => {
 
   return (
     <section id="gallery" className="gallery-scroll-wrapper section" style={{ padding: 0 }}>
-      <div style={{ position: 'absolute', top: '80px', width: '100%', textAlign: 'center', zIndex: 10 }}>
+      <div className="gallery-header">
         <h2>{t.gallery.title}</h2>
-        <p style={{ color: 'var(--text-secondary)' }}>{t.gallery.subtitle}</p>
+        <p>{t.gallery.subtitle}</p>
       </div>
 
       <div className="gallery-auto-scene" style={{ '--n': numItems }}>
