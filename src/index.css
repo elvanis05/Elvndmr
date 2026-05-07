@@ -243,10 +243,6 @@ nav {
   .lang-switcher {
     margin-left: 10px;
   }
-
-  .hero-buttons {
-    display: none;
-  }
 }
 
 .hero-content {
@@ -358,9 +354,12 @@ nav {
     text-align: center;
   }
 
-  .hero-text .glitch-wrapper,
-  .hero-text .hero-buttons {
+  .hero-text .glitch-wrapper {
     justify-content: center;
+  }
+
+  .hero-buttons {
+    display: none !important;
   }
 
   .hero-image-container {
