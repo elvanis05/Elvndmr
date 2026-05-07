@@ -904,6 +904,22 @@ nav {
   object-fit: cover;
 }
 
+@media (max-width: 600px) {
+  .gallery-auto-scene header {
+    padding: 0.8rem;
+  }
+
+  .gallery-auto-scene h2 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .gallery-auto-scene em {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+}
+
 /* ================= SKILLS ================= */
 #skills {
   background-color: var(--bg-color);
@@ -1262,6 +1278,17 @@ nav {
 
   .hex:nth-child(3n+4) {
     clear: left;
+  }
+
+  .hex h1 {
+    font-size: 0.9rem !important;
+    padding-top: 45% !important;
+  }
+
+  .hex p.hex-desc {
+    font-size: 0.65rem !important;
+    padding-bottom: 45% !important;
+    line-height: 1.2;
   }
 }
 
