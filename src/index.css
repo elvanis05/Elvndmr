@@ -243,6 +243,10 @@ nav {
   .lang-switcher {
     margin-left: 10px;
   }
+
+  .hero-buttons {
+    display: none;
+  }
 }
 
 .hero-content {
