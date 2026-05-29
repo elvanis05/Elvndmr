@@ -73,6 +73,7 @@ const translations = {
       certsTitle: "Additional Qualifications",
       certsDate: "Certifications",
       certsList: [
+        "Frontend Developer Certificate – Workintech (2025)",
         "Hygiene Certificate – İstanbul Gedik University (2023)",
         "Computer Literacy Certificate – Public Education Center (2018)",
         "Active contributor – International Amasya BÖTE Congress (2015–2016)"
@@ -150,6 +151,7 @@ const translations = {
       certsTitle: "Ek Nitelikler",
       certsDate: "Sertifikalar",
       certsList: [
+        "Frontend Developer Sertifikası – Workintech (2025)",
         "Hijyen Belgesi – İstanbul Gedik Üniversitesi (2023)",
         "Bilgisayar İşletmenliği Sertifikası – Halk Eğitim Merkezi (2018)",
         "Aktif Katılımcı – Uluslararası Amasya BÖTE Kongresi (2015–2016)"
@@ -227,6 +229,7 @@ const translations = {
       certsTitle: "Extra Kwalificaties",
       certsDate: "Certificeringen",
       certsList: [
+        "Frontend Developer-certificaat – Workintech (2025)",
         "Hygiënecertificaat – İstanbul Gedik University (2023)",
         "Computervaardigheidscertificaat – Public Education Center (2018)",
         "Actieve bijdrager – Internationaal Amasya BÖTE-congres (2015–2016)"
@@ -304,6 +307,7 @@ const translations = {
       certsTitle: "Zusätzliche Qualifikationen",
       certsDate: "Zertifikate",
       certsList: [
+        "Frontend-Entwickler-Zertifikat – Workintech (2025)",
         "Hygienezertifikat – Universität İstanbul Gedik (2023)",
         "Zertifikat über Computerkenntnisse – Volkshochschule (2018)",
         "Aktiver Teilnehmer – Internationaler Amasya BÖTE-Kongress (2015–2016)"
