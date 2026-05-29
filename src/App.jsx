@@ -345,7 +345,7 @@ const Gallery = () => {
     { title: 'CANVA WORK', desc: 'Social media sharing for agricultural work.', img: '/Gallery/btk.png' },
     { title: 'CANVA WORK', desc: 'school break sharing', img: '/Gallery/mola.png' },
     { title: 'WEB PROJECT', desc: 'Simple app for movie lists...', img: '/Gallery/CinemaList.png' },
-    { title: 'coming soon', desc: 'coming soon...', img: '/Gallery/coming.jpg' },
+    { title: 'LOCAL PROJECT', desc: 'Car tracker ai', img: '/Gallery/car.png' },
     { title: 'coming soon', desc: 'coming soon...', img: '/Gallery/coming.jpg' },
     { title: 'coming soon', desc: 'coming soon...', img: '/Gallery/coming.jpg' },
     { title: 'coming soon', desc: 'coming soon...', img: '/Gallery/coming.jpg' }
@@ -558,11 +558,11 @@ const Resume = () => {
             <div className="timeline-dot"></div>
             <div className="timeline-date">
               {idx === 0 ? "2025 - 2026" :
-               idx === 1 ? "2025" :
-               idx === 2 ? "01/2023 - 05/2024" :
-               idx === 3 ? "03/2022 - 05/2022" :
-               idx === 4 ? "2015 - 2020" :
-               "2011 - 2015"}
+                idx === 1 ? "2025" :
+                  idx === 2 ? "01/2023 - 05/2024" :
+                    idx === 3 ? "03/2022 - 05/2022" :
+                      idx === 4 ? "2015 - 2020" :
+                        "2011 - 2015"}
             </div>
             <div className="timeline-content">
               <h3>{item.title}</h3>
