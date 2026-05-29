@@ -1107,6 +1107,10 @@ nav {
   -webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-out;
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 .hex h1 {
@@ -1293,14 +1297,18 @@ nav {
   }
 
   .hex h1 {
-    font-size: 0.9rem !important;
-    padding-top: 45% !important;
+    font-size: 0.8rem !important;
+    padding-top: 25% !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
 
   .hex p.hex-desc {
-    font-size: 0.65rem !important;
-    padding-bottom: 45% !important;
+    font-size: 0.6rem !important;
+    padding-bottom: 25% !important;
     line-height: 1.2;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
 }
 
