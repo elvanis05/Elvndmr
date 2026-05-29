@@ -154,6 +154,15 @@ nav {
   margin-left: 20px;
 }
 
+.lang-flag-img {
+  width: 22px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
 .lang-btn {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);

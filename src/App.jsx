@@ -406,10 +406,10 @@ const LanguageSwitcher = () => {
   const dropdownRef = React.useRef(null);
 
   const languages = [
-    { code: 'en', name: 'English', flag: '🇬🇧' },
-    { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
-    { code: 'nl', name: 'Dutch', flag: '🇳🇱' },
-    { code: 'de', name: 'Deutsch', flag: '🇩🇪' }
+    { code: 'en', name: 'English', flagUrl: 'https://flagcdn.com/w40/gb.png', alt: 'GB flag' },
+    { code: 'tr', name: 'Türkçe', flagUrl: 'https://flagcdn.com/w40/tr.png', alt: 'TR flag' },
+    { code: 'nl', name: 'Dutch', flagUrl: 'https://flagcdn.com/w40/nl.png', alt: 'NL flag' },
+    { code: 'de', name: 'Deutsch', flagUrl: 'https://flagcdn.com/w40/de.png', alt: 'DE flag' }
   ];
 
   useEffect(() => {
@@ -425,7 +425,11 @@ const LanguageSwitcher = () => {
   return (
     <div className="lang-switcher" ref={dropdownRef}>
       <button onClick={() => setIsOpen(!isOpen)} className="lang-btn" type="button">
-        <span>{languages.find(l => l.code === lang).flag}</span>
+        <img
+          src={languages.find(l => l.code === lang).flagUrl}
+          alt={languages.find(l => l.code === lang).alt}
+          className="lang-flag-img"
+        />
         <span>{lang.toUpperCase()}</span>
         <span style={{ fontSize: '0.7rem', opacity: 0.5 }}>{isOpen ? '▲' : '▼'}</span>
       </button>
@@ -433,7 +437,7 @@ const LanguageSwitcher = () => {
         <ul className="lang-dropdown">
           {languages.map((l) => (
             <li key={l.code} onClick={() => { setLang(l.code); setIsOpen(false); }}>
-              <span className="lang-flag">{l.flag}</span>
+              <img src={l.flagUrl} alt={l.alt} className="lang-flag-img" />
               <span className="lang-name">{l.name}</span>
             </li>
           ))}
