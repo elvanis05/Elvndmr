@@ -13,7 +13,28 @@ const translations = {
     },
     gallery: {
       title: "Visual Space",
-      subtitle: "Hover to reveal details and pause the gallery"
+      subtitle: "Hover to reveal details and pause the gallery",
+      list: [
+        { title: 'WEB PROJECT', desc: 'Pizza Sales Website' },
+        { title: 'WEB PROJECT', desc: 'Pizza sales website order menu' },
+        { title: 'WEB PROJECT', desc: 'A portfolio site for personal use' },
+        { title: 'WEB PROJECT', desc: 'A project created for a tour company.' },
+        { title: 'WEB PROJECT', desc: 'Dashboard for tour site' },
+        { title: 'WEB PROJECT', desc: 'Hotel management panel for tour website' },
+        { title: 'WEB PROJECT', desc: 'Tour management panel for tour website' },
+        { title: 'CANVA WORK', desc: 'A video project for school promotion' },
+        { title: 'CANVA WORK', desc: 'School lunch list design' },
+        { title: 'CANVA WORK', desc: 'An announcement video for the STS exam' },
+        { title: 'CANVA WORK', desc: 'Social media post for Kahoot quiz' },
+        { title: 'CANVA WORK', desc: 'A video from a company operating in the agricultural sector.' },
+        { title: 'CANVA WORK', desc: 'Social media sharing for agricultural work.' },
+        { title: 'CANVA WORK', desc: 'School break sharing' },
+        { title: 'WEB PROJECT', desc: 'Simple app for movie watchlists...' },
+        { title: 'LOCAL PROJECT', desc: 'Car tracker AI' },
+        { title: 'Coming Soon', desc: 'coming soon...' },
+        { title: 'Coming Soon', desc: 'coming soon...' },
+        { title: 'Coming Soon', desc: 'coming soon...' }
+      ]
     },
     skills: {
       title: "SKILLS",
@@ -28,6 +49,8 @@ const translations = {
       aiAssisted: "🤖 AI Assisted",
       humanCode: "🧑‍💻 100% Human Code",
       techStack: "Tech Stack",
+      aiBadge: "🤖 AI",
+      humanBadge: "🧑‍💻 NO AI",
       list: [
         { title: 'Holiday Company', desc: 'A modern holiday booking and management platform with a secure backend.' },
         { title: 'Tour Management', desc: 'A comprehensive tour management panel for the holiday platform.' },
@@ -47,21 +70,48 @@ const translations = {
         { title: "BSc in Computer Science", org: "Amasya University (BÖTE)", desc: "Graduated with a focus on educational technologies, instructional design, and human-computer interaction principles applied to web systems." },
         { title: "High School Diploma", org: "Amasya 12 Haziran Anatolian High School", desc: "Foundational education with a focus on science and mathematics." }
       ],
-      certsTitle: "Additional Qualifications"
+      certsTitle: "Additional Qualifications",
+      certsDate: "Certifications",
+      certsList: [
+        "Hygiene Certificate – İstanbul Gedik University (2023)",
+        "Computer Literacy Certificate – Public Education Center (2018)",
+        "Active contributor – International Amasya BÖTE Congress (2015–2016)"
+      ]
     },
     footer: { rights: "All rights reserved." }
   },
   tr: {
     nav: { home: "Ana Sayfa", gallery: "Galeri", skills: "Yetenekler", projects: "Projeler", resume: "Özgeçmiş" },
     hero: {
-      roles: ["Creative Developer", "Öğretmen", "Web Yöneticisi", "Restoran Müdürü"],
+      roles: ["Kreatif Geliştirici", "Öğretmen", "Web Yöneticisi", "Restoran Müdürü"],
       subtitle: "Teknoloji üretiyor ve geleceği öğretiyorum.",
       viewWork: "Çalışmalarımı Gör",
       reviewResume: "Özgeçmişi İncele"
     },
     gallery: {
       title: "Görsel Alan",
-      subtitle: "Detayları görmek ve galeriyi duraklatmak için üzerine gelin"
+      subtitle: "Detayları görmek ve galeriyi duraklatmak için üzerine gelin",
+      list: [
+        { title: 'WEB PROJESİ', desc: 'Pizza Satış Sitesi' },
+        { title: 'WEB PROJESİ', desc: 'Pizza satış sitesi sipariş menüsü' },
+        { title: 'WEB PROJESİ', desc: 'Kişisel kullanım için portfolyo sitesi' },
+        { title: 'WEB PROJESİ', desc: 'Bir tur şirketi için oluşturulmuş proje.' },
+        { title: 'WEB PROJESİ', desc: 'Tur sitesi yönetim paneli (dashboard)' },
+        { title: 'WEB PROJESİ', desc: 'Tur sitesi için otel yönetim paneli' },
+        { title: 'WEB PROJESİ', desc: 'Tur sitesi için tur yönetim paneli' },
+        { title: 'CANVA ÇALIŞMASI', desc: 'Okul tanıtımı için video projesi' },
+        { title: 'CANVA ÇALIŞMASI', desc: 'Okul yemek listesi tasarımı' },
+        { title: 'CANVA ÇALIŞMASI', desc: 'STS sınavı için duyuru videosu' },
+        { title: 'CANVA ÇALIŞMASI', desc: 'Kahoot bilgi yarışması için sosyal medya görseli' },
+        { title: 'CANVA ÇALIŞMASI', desc: 'Tarım sektöründe faaliyet gösteren bir şirket için tanıtım videosu.' },
+        { title: 'CANVA ÇALIŞMASI', desc: 'Tarım çalışmaları için sosyal medya paylaşımı.' },
+        { title: 'CANVA ÇALIŞMASI', desc: 'Okul teneffüs paylaşımı' },
+        { title: 'WEB PROJESİ', desc: 'Film izleme listeleri için basit uygulama...' },
+        { title: 'YEREL PROJE', desc: 'Yapay zeka tabanlı araç takip sistemi' },
+        { title: 'Yakında', desc: 'yakında...' },
+        { title: 'Yakında', desc: 'yakında...' },
+        { title: 'Yakında', desc: 'yakında...' }
+      ]
     },
     skills: {
       title: "YETENEKLER",
@@ -76,6 +126,8 @@ const translations = {
       aiAssisted: "🤖 AI Destekli",
       humanCode: "🧑‍💻 %100 İnsan Kodu",
       techStack: "Teknoloji Yığını",
+      aiBadge: "🤖 AI",
+      humanBadge: "🧑‍💻 İNSAN KODU",
       list: [
         { title: 'Holiday Company', desc: 'Güvenli bir backend yapısına sahip modern bir tatil rezervasyon ve yönetim platformu.' },
         { title: 'Tur Yönetimi', desc: 'Tatil platformu için kapsamlı bir tur yönetim paneli.' },
@@ -95,21 +147,48 @@ const translations = {
         { title: "Bilgisayar Bilimleri Lisansı", org: "Amasya Üniversitesi (BÖTE)", desc: "Web sistemlerine uygulanan eğitim teknolojileri, öğretim tasarımı ve insan-bilgisayar etkileşimi ilkeleri üzerine odaklanarak mezun oldu." },
         { title: "Lise Diploması", org: "Amasya 12 Haziran Anadolu Lisesi", desc: "Fen ve matematik odaklı temel eğitim." }
       ],
-      certsTitle: "Ek Nitelikler"
+      certsTitle: "Ek Nitelikler",
+      certsDate: "Sertifikalar",
+      certsList: [
+        "Hijyen Belgesi – İstanbul Gedik Üniversitesi (2023)",
+        "Bilgisayar İşletmenliği Sertifikası – Halk Eğitim Merkezi (2018)",
+        "Aktif Katılımcı – Uluslararası Amasya BÖTE Kongresi (2015–2016)"
+      ]
     },
     footer: { rights: "Tüm hakları saklıdır." }
   },
   nl: {
     nav: { home: "Home", gallery: "Galerij", skills: "Vaardigheden", projects: "Projecten", resume: "Resume" },
     hero: {
-      roles: ["Creatieve Developer", "Leraar", "Web Manager"],
+      roles: ["Creatieve Developer", "Leraar", "Web Manager", "Restaurant Manager"],
       subtitle: "Ik creëer technologie en onderwijs de toekomst.",
       viewWork: "Bekijk Mijn Werk",
       reviewResume: "Bekijk Resume"
     },
     gallery: {
       title: "Visuele Ruimte",
-      subtitle: "Hover om details te onthullen en de galerij te pauzeren"
+      subtitle: "Hover om details te onthullen en de galerij te pauzeren",
+      list: [
+        { title: 'WEBPROJECT', desc: 'Pizza Verkoop Website' },
+        { title: 'WEBPROJECT', desc: 'Pizza verkoop website bestelmenu' },
+        { title: 'WEBPROJECT', desc: 'Een portfoliosite voor persoonlijk gebruik' },
+        { title: 'WEBPROJECT', desc: 'Een project gemaakt voor een reisbureau.' },
+        { title: 'WEBPROJECT', desc: 'Dashboard voor toursite' },
+        { title: 'WEBPROJECT', desc: 'Hotelbeheerpaneel voor toursite' },
+        { title: 'WEBPROJECT', desc: 'Tourbeheerpaneel voor toursite' },
+        { title: 'CANVA WERK', desc: 'Een videoproject voor schoolpromotie' },
+        { title: 'CANVA WERK', desc: 'Schoollunch menu-ontwerp' },
+        { title: 'CANVA WERK', desc: 'Een aankondigingsvideo voor het STS-examen' },
+        { title: 'CANVA WERK', desc: 'Social media post voor Kahoot quiz' },
+        { title: 'CANVA WERK', desc: 'Een video voor een bedrijf in de agrarische sector.' },
+        { title: 'CANVA WERK', desc: 'Social media post voor agrarisch werk.' },
+        { title: 'CANVA WERK', desc: 'Schoolpauze post' },
+        { title: 'WEBPROJECT', desc: 'Eenvoudige app voor filmwatchlists...' },
+        { title: 'LOKAAL PROJECT', desc: 'Auto tracker AI' },
+        { title: 'Binnenkort', desc: 'binnenkort...' },
+        { title: 'Binnenkort', desc: 'binnenkort...' },
+        { title: 'Binnenkort', desc: 'binnenkort...' }
+      ]
     },
     skills: {
       title: "VAARDIGHEDEN",
@@ -124,11 +203,13 @@ const translations = {
       aiAssisted: "🤖 AI Ondersteund",
       humanCode: "🧑‍💻 100% Menselijke Code",
       techStack: "Tech Stack",
+      aiBadge: "🤖 AI",
+      humanBadge: "🧑‍💻 GEEN AI",
       list: [
         { title: 'Holiday Company', desc: 'Een modern vakantieboekings- en beheerplatform met een beveiligde backend.' },
         { title: 'Tourbeheer', desc: 'Een uitgebreid tourbeheerpaneel voor het vakantieplatform.' },
         { title: 'Pizza Verkoop Website', desc: 'Een volledig functionele pizza-bestelwebsite met een aangepast winkelwagentje en menu.' },
-        { title: 'Persoonlijke Website', desc: 'Een persoonlijke portfoliowebsite die mijn creatieve projecten en professionele reis laat zien.' },
+        { title: 'Persoonlijke Website', desc: 'Een persoonlijke portfoliowebsite die mijn creative projecten en professionele reis laat zien.' },
         { title: 'Film Watchlist', desc: 'Een app voor het bijhouden van films, gebouwd met React en Redux voor het beheren van persoonlijke watchlists.' }
       ]
     },
@@ -143,21 +224,48 @@ const translations = {
         { title: "BSc in Informatica", org: "Amasya University (BÖTE)", desc: "Afgestudeerd met een focus op educatieve technologieën en interactieprincipes." },
         { title: "Middelbare School Diploma", org: "Amasya 12 Haziran Anatolian High School", desc: "Fundamenteel onderwijs gericht op wetenschap en wiskunde." }
       ],
-      certsTitle: "Extra Kwalificaties"
+      certsTitle: "Extra Kwalificaties",
+      certsDate: "Certificeringen",
+      certsList: [
+        "Hygiënecertificaat – İstanbul Gedik University (2023)",
+        "Computervaardigheidscertificaat – Public Education Center (2018)",
+        "Actieve bijdrager – Internationaal Amasya BÖTE-congres (2015–2016)"
+      ]
     },
     footer: { rights: "Alle rechten voorbehouden." }
   },
   de: {
     nav: { home: "Startseite", gallery: "Galerie", skills: "Fähigkeiten", projects: "Projekte", resume: "Lebenslauf" },
     hero: {
-      roles: ["Kreativer Entwickler", "Lehrer", "Web-Manager"],
+      roles: ["Kreativer Entwickler", "Lehrer", "Web-Manager", "Restaurantleiter"],
       subtitle: "Ich erschaffe Technologie und lehre die Zukunft.",
       viewWork: "Meine Arbeit sehen",
       reviewResume: "Lebenslauf prüfen"
     },
     gallery: {
       title: "Visueller Raum",
-      subtitle: "Hovern, um Details anzuzeigen und die Galerie anzuhalten"
+      subtitle: "Hovern, um Details anzuzeigen und die Galerie anzuhalten",
+      list: [
+        { title: 'WEB-PROJEKT', desc: 'Pizza-Verkaufswebsite' },
+        { title: 'WEB-PROJEKT', desc: 'Pizza-Bestellmenü der Website' },
+        { title: 'WEB-PROJEKT', desc: 'Eine Portfolio-Website für den persönlichen Gebrauch' },
+        { title: 'WEB-PROJEKT', desc: 'Ein Projekt für ein Reiseunternehmen.' },
+        { title: 'WEB-PROJEKT', desc: 'Dashboard für Reise-Website' },
+        { title: 'WEB-PROJEKT', desc: 'Hotel-Management-Panel für Reise-Website' },
+        { title: 'WEB-PROJEKT', desc: 'Tour-Management-Panel für Reise-Website' },
+        { title: 'CANVA-ARBEIT', desc: 'Ein Videoprojekt für Schulwerbung' },
+        { title: 'CANVA-ARBEIT', desc: 'Schulmittagessen Menü-Design' },
+        { title: 'CANVA-ARBEIT', desc: 'Ein Ankündigungsvideo für die STS-Prüfung' },
+        { title: 'CANVA-ARBEIT', desc: 'Social-Media-Post für Kahoot-Quiz' },
+        { title: 'CANVA-ARBEIT', desc: 'Ein Video für ein Unternehmen im Agrarsektor.' },
+        { title: 'CANVA-ARBEIT', desc: 'Social-Media-Post für landwirtschaftliche Arbeiten.' },
+        { title: 'CANVA-ARBEIT', desc: 'Schulpause Beitrag' },
+        { title: 'WEB-PROJEKT', desc: 'Einfache App für Film-Watchlists...' },
+        { title: 'LOKALES PROJEKT', desc: 'Auto-Tracker KI' },
+        { title: 'Demnächst', desc: 'demnächst...' },
+        { title: 'Demnächst', desc: 'demnächst...' },
+        { title: 'Demnächst', desc: 'demnächst...' }
+      ]
     },
     skills: {
       title: "FÄHIGKEITEN",
@@ -172,6 +280,8 @@ const translations = {
       aiAssisted: "🤖 KI-gestützt",
       humanCode: "🧑‍💻 100% Menschlicher Code",
       techStack: "Tech-Stack",
+      aiBadge: "🤖 KI",
+      humanBadge: "🧑‍💻 KEINE KI",
       list: [
         { title: 'Holiday Company', desc: 'Eine moderne Urlaubsverarbeitungs- und Verwaltungsplattform mit sicherem Backend.' },
         { title: 'Tour-Management', desc: 'Ein umfassendes Tour-Management-Panel für die Urlaubs-Plattform.' },
@@ -191,7 +301,13 @@ const translations = {
         { title: "BSc in Informatik", org: "Amasya University (BÖTE)", desc: "Abschluss mit Fokus auf Bildungstechnologien und Interaktionsprinzipien." },
         { title: "Abitur", org: "Amasya 12 Haziran Anatolian High School", desc: "Grundausbildung mit Fokus auf Naturwissenschaften und Mathematik." }
       ],
-      certsTitle: "Zusätzliche Qualifikationen"
+      certsTitle: "Zusätzliche Qualifikationen",
+      certsDate: "Zertifikate",
+      certsList: [
+        "Hygienezertifikat – Universität İstanbul Gedik (2023)",
+        "Zertifikat über Computerkenntnisse – Volkshochschule (2018)",
+        "Aktiver Teilnehmer – Internationaler Amasya BÖTE-Kongress (2015–2016)"
+      ]
     },
     footer: { rights: "Alle Rechte vorbehalten." }
   }
@@ -202,7 +318,7 @@ const LanguageContext = createContext();
 export const useLanguage = () => useContext(LanguageContext);
 
 const LanguageProvider = ({ children }) => {
-  const [lang, setLang] = useState('en');
+  const [lang, setLang] = useState('tr');
   const t = translations[lang];
 
   return (
@@ -330,25 +446,25 @@ const LanguageSwitcher = () => {
 const Gallery = () => {
   const { t } = useLanguage();
   const galleryData = [
-    { title: 'WEB PROJECT', desc: 'Pizza Sales Website', img: '/Gallery/pizzahome.png' },
-    { title: 'WEB PROJECT', desc: 'Pizza sales website order menu', img: '/Gallery/pizzaorder.png' },
-    { title: 'WEB PROJECT', desc: 'a portfolio site for personal use', img: '/Gallery/Personweb.png' },
-    { title: 'WEB PROJECT', desc: 'A project created for a tour company.', img: '/Gallery/stra.png' },
-    { title: 'WEB PROJECT', desc: 'dashboard for tour site', img: '/Gallery/stradash.png' },
-    { title: 'WEB PROJECT', desc: 'Hotel management panel for tour website', img: '/Gallery/strahotel.png' },
-    { title: 'WEB PROJECT', desc: 'Tour management panel for tour website', img: '/Gallery/stratours.png' },
-    { title: 'CANVA WORK', desc: 'a video project for school promotion', img: '/Gallery/canvaschool1.png' },
-    { title: 'CANVA WORK', desc: 'school lunch list design', img: '/Gallery/schollmenu.png' },
-    { title: 'CANVA WORK', desc: 'An announcement video for the STS exam', img: '/Gallery/sts.png' },
-    { title: 'CANVA WORK', desc: 'Social media post for Kahoot quiz', img: '/Gallery/kahoot.jpg' },
-    { title: 'CANVA WORK', desc: 'A video from a company operating in the agricultural sector.', img: '/Gallery/trm.png' },
-    { title: 'CANVA WORK', desc: 'Social media sharing for agricultural work.', img: '/Gallery/btk.png' },
-    { title: 'CANVA WORK', desc: 'school break sharing', img: '/Gallery/mola.png' },
-    { title: 'WEB PROJECT', desc: 'Simple app for movie lists...', img: '/Gallery/CinemaList.png' },
-    { title: 'LOCAL PROJECT', desc: 'Car tracker ai', img: '/Gallery/car.png' },
-    { title: 'coming soon', desc: 'coming soon...', img: '/Gallery/coming.jpg' },
-    { title: 'coming soon', desc: 'coming soon...', img: '/Gallery/coming.jpg' },
-    { title: 'coming soon', desc: 'coming soon...', img: '/Gallery/coming.jpg' }
+    { img: '/Gallery/pizzahome.png' },
+    { img: '/Gallery/pizzaorder.png' },
+    { img: '/Gallery/Personweb.png' },
+    { img: '/Gallery/stra.png' },
+    { img: '/Gallery/stradash.png' },
+    { img: '/Gallery/strahotel.png' },
+    { img: '/Gallery/stratours.png' },
+    { img: '/Gallery/canvaschool1.png' },
+    { img: '/Gallery/schollmenu.png' },
+    { img: '/Gallery/sts.png' },
+    { img: '/Gallery/kahoot.jpg' },
+    { img: '/Gallery/trm.png' },
+    { img: '/Gallery/btk.png' },
+    { img: '/Gallery/mola.png' },
+    { img: '/Gallery/CinemaList.png' },
+    { img: '/Gallery/car.png' },
+    { img: '/Gallery/coming.jpg' },
+    { img: '/Gallery/coming.jpg' },
+    { img: '/Gallery/coming.jpg' }
   ];
 
   const numItems = galleryData.length;
@@ -363,14 +479,15 @@ const Gallery = () => {
       <div className="gallery-auto-scene" style={{ '--n': numItems }}>
         <section className="assembly">
           {galleryData.map((item, idx) => {
+            const itemTrans = t.gallery.list && t.gallery.list[idx] ? t.gallery.list[idx] : { title: '', desc: '' };
             return (
               <article key={idx} style={{ '--i': idx, '--url': `url(${item.img})` }}>
                 <header>
-                  <h2>{item.title}</h2>
-                  <em>{item.desc}</em>
+                  <h2>{itemTrans.title}</h2>
+                  <em>{itemTrans.desc}</em>
                 </header>
                 <figure>
-                  <img src={item.img} alt={item.title} />
+                  <img src={item.img} alt={itemTrans.title} />
                 </figure>
               </article>
             );
@@ -494,7 +611,7 @@ const Projects = () => {
             <a className="hexIn" href="#modal" onClick={(e) => openModal(proj, e)}>
               <img src={proj.img} alt={proj.title} />
               <div className={`ai-badge ${proj.isAI ? 'ai' : 'no-ai'}`}>
-                {proj.isAI ? '🤖 AI' : '🧑‍💻 NO AI'}
+                {proj.isAI ? t.projects.aiBadge : t.projects.humanBadge}
               </div>
               <h1>{proj.title}</h1>
               <p className="hex-desc">{t.projects.viewDetails}</p>
@@ -574,13 +691,13 @@ const Resume = () => {
 
         <div className="timeline-item">
           <div className="timeline-dot"></div>
-          <div className="timeline-date">Certifications</div>
+          <div className="timeline-date">{t.resume.certsDate}</div>
           <div className="timeline-content">
             <h3>{t.resume.certsTitle}</h3>
             <ul style={{ listStyle: 'none', padding: 0, color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-              <li>• Hygiene Certificate – İstanbul Gedik University (2023)</li>
-              <li>• Computer Literacy Certificate – Public Education Center (2018)</li>
-              <li>• Active contributor – International Amasya BÖTE Congress (2015–2016)</li>
+              {t.resume.certsList && t.resume.certsList.map((cert, index) => (
+                <li key={index}>• {cert}</li>
+              ))}
             </ul>
           </div>
         </div>
