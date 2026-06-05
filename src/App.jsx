@@ -31,7 +31,7 @@ const translations = {
         { title: 'CANVA WORK', desc: 'School break sharing' },
         { title: 'WEB PROJECT', desc: 'Simple app for movie watchlists...' },
         { title: 'LOCAL PROJECT', desc: 'Car tracker AI' },
-        { title: 'Coming Soon', desc: 'coming soon...' },
+        { title: 'WEB PROJECT', desc: 'A library website featuring educational booklets for school events and digital awareness.' },
         { title: 'Coming Soon', desc: 'coming soon...' },
         { title: 'Coming Soon', desc: 'coming soon...' }
       ]
@@ -56,7 +56,8 @@ const translations = {
         { title: 'Tour Management', desc: 'A comprehensive tour management panel for the holiday platform.' },
         { title: 'Pizza Sales Website', desc: 'A fully functional pizza ordering website with a custom shopping cart and menu.' },
         { title: 'Personal Website', desc: 'A personal portfolio website showcasing my creative projects and professional journey.' },
-        { title: 'Movie Watchlist', desc: 'A movie tracking application built with React and Redux for managing personal watchlists.' }
+        { title: 'Movie Watchlist', desc: 'A movie tracking application built with React and Redux for managing personal watchlists.' },
+        { title: 'Açı College Library', desc: 'An interactive digital library and storybook platform designed to build digital addiction awareness for children.' }
       ]
     },
     resume: {
@@ -109,7 +110,7 @@ const translations = {
         { title: 'CANVA ÇALIŞMASI', desc: 'Okul teneffüs paylaşımı' },
         { title: 'WEB PROJESİ', desc: 'Film izleme listeleri için basit uygulama...' },
         { title: 'YEREL PROJE', desc: 'Yapay zeka tabanlı araç takip sistemi' },
-        { title: 'Yakında', desc: 'yakında...' },
+        { title: 'WEB PROJESİ', desc: 'Okul Etkinlikleri ve bilinçlendirme için küçük kiptapçıkların olduğu bir site' },
         { title: 'Yakında', desc: 'yakında...' },
         { title: 'Yakında', desc: 'yakında...' }
       ]
@@ -134,7 +135,8 @@ const translations = {
         { title: 'Tur Yönetimi', desc: 'Tatil platformu için kapsamlı bir tur yönetim paneli.' },
         { title: 'Pizza Satış Sitesi', desc: 'Özel alışveriş sepeti ve menüsü olan tam fonksiyonel bir pizza sipariş sitesi.' },
         { title: 'Kişisel Web Sitesi', desc: 'Yaratıcı projelerimi ve profesyonel yolculuğumu sergileyen kişisel portfolyo sitesi.' },
-        { title: 'Film İzleme Listesi', desc: 'Kişisel izleme listelerini yönetmek için React ve Redux ile oluşturulmuş bir film takip uygulaması.' }
+        { title: 'Film İzleme Listesi', desc: 'Kişisel izleme listelerini yönetmek için React ve Redux ile oluşturulmuş bir film takip uygulaması.' },
+        { title: 'Açı Koleji Kitaplık', desc: 'Çocuklara yönelik dijital bağımlılık farkındalığı oluşturmayı amaçlayan interaktif bir çocuk kütüphanesi ve hikaye kitabı platformu.' }
       ]
     },
     resume: {
@@ -187,7 +189,7 @@ const translations = {
         { title: 'CANVA WERK', desc: 'Schoolpauze post' },
         { title: 'WEBPROJECT', desc: 'Eenvoudige app voor filmwatchlists...' },
         { title: 'LOKAAL PROJECT', desc: 'Auto tracker AI' },
-        { title: 'Binnenkort', desc: 'binnenkort...' },
+        { title: 'WEBPROJECT', desc: 'Een bibliotheekwebsite met educatieve boekjes voor schoolactiviteiten en digitaal bewustzijn.' },
         { title: 'Binnenkort', desc: 'binnenkort...' },
         { title: 'Binnenkort', desc: 'binnenkort...' }
       ]
@@ -212,7 +214,8 @@ const translations = {
         { title: 'Tourbeheer', desc: 'Een uitgebreid tourbeheerpaneel voor het vakantieplatform.' },
         { title: 'Pizza Verkoop Website', desc: 'Een volledig functionele pizza-bestelwebsite met een aangepast winkelwagentje en menu.' },
         { title: 'Persoonlijke Website', desc: 'Een persoonlijke portfoliowebsite die mijn creative projecten en professionele reis laat zien.' },
-        { title: 'Film Watchlist', desc: 'Een app voor het bijhouden van films, gebouwd met React en Redux voor het beheren van persoonlijke watchlists.' }
+        { title: 'Film Watchlist', desc: 'Een app voor het bijhouden van films, gebouwd met React en Redux voor het beheren van persoonlijke watchlists.' },
+        { title: 'Açı College Bibliotheek', desc: 'Een interactieve digitale bibliotheek en verhalenboekplatform ontworpen om bewustzijn rond digitale verslaving bij kinderen te vergroten.' }
       ]
     },
     resume: {
@@ -265,7 +268,7 @@ const translations = {
         { title: 'CANVA-ARBEIT', desc: 'Schulpause Beitrag' },
         { title: 'WEB-PROJEKT', desc: 'Einfache App für Film-Watchlists...' },
         { title: 'LOKALES PROJEKT', desc: 'Auto-Tracker KI' },
-        { title: 'Demnächst', desc: 'demnächst...' },
+        { title: 'WEB-PROJEKT', desc: 'Eine Bibliotheks-Website mit pädagogischen Heften für Schulveranstaltungen und digitales Bewusstsein.' },
         { title: 'Demnächst', desc: 'demnächst...' },
         { title: 'Demnächst', desc: 'demnächst...' }
       ]
@@ -290,7 +293,8 @@ const translations = {
         { title: 'Tour-Management', desc: 'Ein umfassendes Tour-Management-Panel für die Urlaubs-Plattform.' },
         { title: 'Pizza-Verkaufswebsite', desc: 'Eine voll funktionsfähige Pizza-Bestellwebsite mit individuellem Warenkorb und Menü.' },
         { title: 'Persönliche Website', desc: 'Eine persönliche Portfolio-Website, die meine kreativen Projekte und meinen beruflichen Weg zeigt.' },
-        { title: 'Film-Watchlist', desc: 'Eine Film-Tracking-Anwendung, die mit React und Redux zur Verwaltung persönlicher Watchlists erstellt wurde.' }
+        { title: 'Film-Watchlist', desc: 'Eine Film-Tracking-Anwendung, die mit React und Redux zur Verwaltung persönlicher Watchlists erstellt wurde.' },
+        { title: 'Açı College Bibliothek', desc: 'Eine interaktive digitale Kinderbibliothek und Bilderbuch-Plattform zur Förderung des Bewusstseins für digitale Mediensucht.' }
       ]
     },
     resume: {
@@ -470,7 +474,7 @@ const Gallery = () => {
     { img: '/Gallery/mola.png' },
     { img: '/Gallery/CinemaList.png' },
     { img: '/Gallery/car.png' },
-    { img: '/Gallery/coming.jpg' },
+    { img: '/Gallery/acikitap.png' },
     { img: '/Gallery/coming.jpg' },
     { img: '/Gallery/coming.jpg' }
   ];
@@ -577,6 +581,7 @@ const Projects = () => {
     { isAI: false, skills: ['html5', 'javascript', 'css3', 'react', 'nodejs', 'vscode'], img: '/Gallery/pizzahome.png', link: 'https://fsweb-s8-challenge-pizza-green.vercel.app/' },
     { isAI: false, skills: ['html5', 'css3', 'javascript', 'vscode'], img: '/Gallery/Personweb.png', link: 'https://my-site-kufi.vercel.app/' },
     { isAI: false, skills: ['react', 'redux', 'javascript', 'css3', 'vscode'], img: '/Gallery/CinemaList.png', link: 'https://fsweb-s10g3-redux-watchlist-solutio-three.vercel.app/' },
+    { isAI: true, skills: ['html5', 'css3', 'javascript', 'vscode'], img: '/Gallery/acikitap.png', link: 'https://acimaterlyal05.vercel.app/' },
   ];
 
   const projectsList = projectsBase.map((p, i) => ({
