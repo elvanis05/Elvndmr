@@ -1089,7 +1089,6 @@ nav {
   -ms-transform: skewY(-30deg) rotate(60deg);
   transform: skewY(-30deg) rotate(60deg);
   cursor: pointer;
-  position: relative;
 }
 
 .hex img {
@@ -1121,6 +1120,7 @@ nav {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transform-style: preserve-3d;
+  opacity: 0;
 }
 
 .hex h1 {
@@ -1159,6 +1159,7 @@ nav {
 .hexIn:hover p.hex-desc,
 .hexIn:focus p.hex-desc {
   transform: translateY(0%) translatez(-1px);
+  opacity: 1;
 }
 
 @media (min-width: 1201px) {
