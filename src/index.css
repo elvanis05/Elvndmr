@@ -1528,6 +1528,18 @@ nav {
   text-decoration: none;
 }
 
+.modal-videos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.modal-videos .btn {
+  width: 100%;
+  margin-bottom: 0;
+}
+
 @keyframes modalFadeIn {
   from {
     opacity: 0;

@@ -6,7 +6,7 @@ const translations = {
   en: {
     nav: { home: "Home", gallery: "Gallery", skills: "Skills", projects: "Projects", resume: "Resume" },
     hero: {
-      roles: ["Creative Developer", "Teacher", "Web Manager"],
+      roles: ["Creative Developer", "Teacher", "Web Manager", "Restaurant Manager"],
       subtitle: "I create technology and teach the future.",
       viewWork: "View My Work",
       reviewResume: "Review Resume"
@@ -32,8 +32,8 @@ const translations = {
         { title: 'WEB PROJECT', desc: 'Simple app for movie watchlists...' },
         { title: 'LOCAL PROJECT', desc: 'Car tracker AI' },
         { title: 'WEB PROJECT', desc: 'A library website featuring educational booklets for school events and digital awareness.' },
-        { title: 'Coming Soon', desc: 'coming soon...' },
-        { title: 'Coming Soon', desc: 'coming soon...' }
+        { title: 'SCHOOL MANAGEMENT SOFTWARE', desc: 'A school management application using mobile and web interfaces.' },
+        { title: 'ANIMATION', desc: 'An animation prepared for children on digital addiction.' }
       ]
     },
     skills: {
@@ -51,13 +51,20 @@ const translations = {
       techStack: "Tech Stack",
       aiBadge: "🤖 AI",
       humanBadge: "🧑‍💻 NO AI",
+      videoLabels: {
+        adminMobileVideo: "Admin Mobile App Video",
+        adminPcVideo: "Admin PC Usage Video",
+        parentMobileVideo: "Parent Mobile App Video"
+      },
       list: [
         { title: 'Holiday Company', desc: 'A modern holiday booking and management platform with a secure backend.' },
         { title: 'Tour Management', desc: 'A comprehensive tour management panel for the holiday platform.' },
         { title: 'Pizza Sales Website', desc: 'A fully functional pizza ordering website with a custom shopping cart and menu.' },
         { title: 'Personal Website', desc: 'A personal portfolio website showcasing my creative projects and professional journey.' },
         { title: 'Movie Watchlist', desc: 'A movie tracking application built with React and Redux for managing personal watchlists.' },
-        { title: 'Açı College Library', desc: 'An interactive digital library and storybook platform designed to build digital addiction awareness for children.' }
+        { title: 'Açı College Library', desc: 'An interactive digital library and storybook platform designed to build digital addiction awareness for children.' },
+        { title: 'School Management System', desc: 'A comprehensive school management platform built with React and React Native, featuring detailed administrative dashboards and mobile apps for parents.' },
+        { title: 'Digital Addiction Animation', desc: 'An animation project prepared for children to build awareness around digital addiction.' }
       ]
     },
     resume: {
@@ -111,8 +118,8 @@ const translations = {
         { title: 'WEB PROJESİ', desc: 'Film izleme listeleri için basit uygulama...' },
         { title: 'YEREL PROJE', desc: 'Yapay zeka tabanlı araç takip sistemi' },
         { title: 'WEB PROJESİ', desc: 'Okul Etkinlikleri ve bilinçlendirme için küçük kiptapçıkların olduğu bir site' },
-        { title: 'Yakında', desc: 'yakında...' },
-        { title: 'Yakında', desc: 'yakında...' }
+        { title: 'OKUL YÖNETİM YAZILIMI', desc: 'Mobil ve web arayüzleri üzerinden bir okul yönetim uygulaması.' },
+        { title: 'ANİMASYON', desc: 'Dijital bağımlılık üzerine çocuklara yönelik hazırlanmış animasyon.' }
       ]
     },
     skills: {
@@ -130,13 +137,20 @@ const translations = {
       techStack: "Teknoloji Yığını",
       aiBadge: "🤖 AI",
       humanBadge: "🧑‍💻 İNSAN KODU",
+      videoLabels: {
+        adminMobileVideo: "Yönetici Mobil Uygulama Videosu",
+        adminPcVideo: "Yönetici PC Kullanım Videosu",
+        parentMobileVideo: "Veli Mobil Uygulama Videosu"
+      },
       list: [
         { title: 'Holiday Company', desc: 'Güvenli bir backend yapısına sahip modern bir tatil rezervasyon ve yönetim platformu.' },
         { title: 'Tur Yönetimi', desc: 'Tatil platformu için kapsamlı bir tur yönetim paneli.' },
         { title: 'Pizza Satış Sitesi', desc: 'Özel alışveriş sepeti ve menüsü olan tam fonksiyonel bir pizza sipariş sitesi.' },
         { title: 'Kişisel Web Sitesi', desc: 'Yaratıcı projelerimi ve profesyonel yolculuğumu sergileyen kişisel portfolyo sitesi.' },
         { title: 'Film İzleme Listesi', desc: 'Kişisel izleme listelerini yönetmek için React ve Redux ile oluşturulmuş bir film takip uygulaması.' },
-        { title: 'Açı Koleji Kitaplık', desc: 'Çocuklara yönelik dijital bağımlılık farkındalığı oluşturmayı amaçlayan interaktif bir çocuk kütüphanesi ve hikaye kitabı platformu.' }
+        { title: 'Açı Koleji Kitaplık', desc: 'Çocuklara yönelik dijital bağımlılık farkındalığı oluşturmayı amaçlayan interaktif bir çocuk kütüphanesi ve hikaye kitabı platformu.' },
+        { title: 'Okul Yönetim Sistemi', desc: 'Yönetici paneli ve veli mobil uygulaması içeren, React ve React Native ile geliştirilmiş kapsamlı bir okul yönetim yazılımı.' },
+        { title: 'Dijital Bağımlılık Animasyonu', desc: 'Çocuklarda dijital bağımlılık farkındalığı oluşturmak amacıyla hazırlanmış animasyon projesi.' }
       ]
     },
     resume: {
@@ -190,8 +204,8 @@ const translations = {
         { title: 'WEBPROJECT', desc: 'Eenvoudige app voor filmwatchlists...' },
         { title: 'LOKAAL PROJECT', desc: 'Auto tracker AI' },
         { title: 'WEBPROJECT', desc: 'Een bibliotheekwebsite met educatieve boekjes voor schoolactiviteiten en digitaal bewustzijn.' },
-        { title: 'Binnenkort', desc: 'binnenkort...' },
-        { title: 'Binnenkort', desc: 'binnenkort...' }
+        { title: 'SCHOOLBEHEERSOFTWARE', desc: 'Een schoolbeheersapplicatie met mobiele en webinterfaces.' },
+        { title: 'ANIMATIE', desc: 'Een animatie voor kinderen over digitale verslaving.' }
       ]
     },
     skills: {
@@ -209,13 +223,20 @@ const translations = {
       techStack: "Tech Stack",
       aiBadge: "🤖 AI",
       humanBadge: "🧑‍💻 GEEN AI",
+      videoLabels: {
+        adminMobileVideo: "Admin Mobiele App Video",
+        adminPcVideo: "Admin PC Gebruiksvideo",
+        parentMobileVideo: "Ouder Mobiele App Video"
+      },
       list: [
         { title: 'Holiday Company', desc: 'Een modern vakantieboekings- en beheerplatform met een beveiligde backend.' },
         { title: 'Tourbeheer', desc: 'Een uitgebreid tourbeheerpaneel voor het vakantieplatform.' },
         { title: 'Pizza Verkoop Website', desc: 'Een volledig functionele pizza-bestelwebsite met een aangepast winkelwagentje en menu.' },
         { title: 'Persoonlijke Website', desc: 'Een persoonlijke portfoliowebsite die mijn creative projecten en professionele reis laat zien.' },
         { title: 'Film Watchlist', desc: 'Een app voor het bijhouden van films, gebouwd met React en Redux voor het beheren van persoonlijke watchlists.' },
-        { title: 'Açı College Bibliotheek', desc: 'Een interactieve digitale bibliotheek en verhalenboekplatform ontworpen om bewustzijn rond digitale verslaving bij kinderen te vergroten.' }
+        { title: 'Açı College Bibliotheek', desc: 'Een interactieve digitale bibliotheek en verhalenboekplatform ontworpen om bewustzijn rond digitale verslaving bij kinderen te vergroten.' },
+        { title: 'Schoolbeheersysteem', desc: 'Een uitgebreid schoolbeheerplatform gebouwd met React en React Native, met gedetailleerde dashboards voor beheerders en mobiele apps voor ouders.' },
+        { title: 'Digitale Verslaving Animatie', desc: 'Een animatieproject voor kinderen ontworpen om bewustzijn rond digitale verslaving te vergroten.' }
       ]
     },
     resume: {
@@ -269,8 +290,8 @@ const translations = {
         { title: 'WEB-PROJEKT', desc: 'Einfache App für Film-Watchlists...' },
         { title: 'LOKALES PROJEKT', desc: 'Auto-Tracker KI' },
         { title: 'WEB-PROJEKT', desc: 'Eine Bibliotheks-Website mit pädagogischen Heften für Schulveranstaltungen und digitales Bewusstsein.' },
-        { title: 'Demnächst', desc: 'demnächst...' },
-        { title: 'Demnächst', desc: 'demnächst...' }
+        { title: 'SCHULVERWALTUNGSSOFTWARE', desc: 'Eine Schulverwaltungsanwendung mit Mobil- und Webschnittstellen.' },
+        { title: 'ANIMATION', desc: 'Eine Animation für Kinder zum Thema digitale Sucht.' }
       ]
     },
     skills: {
@@ -288,13 +309,20 @@ const translations = {
       techStack: "Tech-Stack",
       aiBadge: "🤖 KI",
       humanBadge: "🧑‍💻 KEINE KI",
+      videoLabels: {
+        adminMobileVideo: "Admin Mobile App Video",
+        adminPcVideo: "Admin PC Nutzungsvideo",
+        parentMobileVideo: "Eltern Mobile App Video"
+      },
       list: [
         { title: 'Holiday Company', desc: 'Eine moderne Urlaubsverarbeitungs- und Verwaltungsplattform mit sicherem Backend.' },
         { title: 'Tour-Management', desc: 'Ein umfassendes Tour-Management-Panel für die Urlaubs-Plattform.' },
         { title: 'Pizza-Verkaufswebsite', desc: 'Eine voll funktionsfähige Pizza-Bestellwebsite mit individuellem Warenkorb und Menü.' },
         { title: 'Persönliche Website', desc: 'Eine persönliche Portfolio-Website, die meine kreativen Projekte und meinen beruflichen Weg zeigt.' },
         { title: 'Film-Watchlist', desc: 'Eine Film-Tracking-Anwendung, die mit React und Redux zur Verwaltung persönlicher Watchlists erstellt wurde.' },
-        { title: 'Açı College Bibliothek', desc: 'Eine interaktive digitale Kinderbibliothek und Bilderbuch-Plattform zur Förderung des Bewusstseins für digitale Mediensucht.' }
+        { title: 'Açı College Bibliothek', desc: 'Eine interaktive digitale Kinderbibliothek und Bilderbuch-Plattform zur Förderung des Bewusstseins für digitale Mediensucht.' },
+        { title: 'Schulverwaltungssystem', desc: 'Eine umfassende Schulverwaltungsplattform entwickelt mit React und React Native, mit detaillierten Dashboards für Administratoren und mobilen Apps für Eltern.' },
+        { title: 'Digitale Sucht Animation', desc: 'Ein Animationsprojekt für Kinder, das entwickelt wurde, um das Bewusstsein für digitale Mediensucht zu schärfen.' }
       ]
     },
     resume: {
@@ -475,7 +503,7 @@ const Gallery = () => {
     { img: '/Gallery/CinemaList.png' },
     { img: '/Gallery/car.png' },
     { img: '/Gallery/acikitap.png' },
-    { img: '/Gallery/coming.jpg' },
+    { img: '/Gallery/okutechweb.png' },
     { img: '/Gallery/coming.jpg' }
   ];
 
@@ -582,6 +610,22 @@ const Projects = () => {
     { isAI: false, skills: ['html5', 'css3', 'javascript', 'vscode'], img: '/Gallery/Personweb.png', link: 'https://my-site-kufi.vercel.app/' },
     { isAI: false, skills: ['react', 'redux', 'javascript', 'css3', 'vscode'], img: '/Gallery/CinemaList.png', link: 'https://fsweb-s10g3-redux-watchlist-solutio-three.vercel.app/' },
     { isAI: true, skills: ['html5', 'css3', 'javascript', 'vscode'], img: '/Gallery/acikitap.png', link: 'https://acimaterlyal05.vercel.app/' },
+    {
+      isAI: true,
+      skills: ['react', 'javascript', 'css3', 'nodejs', 'mongodb'],
+      img: '/Gallery/okutech.png',
+      videos: [
+        { labelKey: 'adminMobileVideo', url: 'https://drive.google.com/file/d/1NEohzGReKPqcjlE-aH28-VwxECA6ld0C/view?usp=sharing' },
+        { labelKey: 'adminPcVideo', url: 'https://drive.google.com/file/d/17rToZEex9V2vD9G7YcETrVF7heblzeTk/view?usp=sharing' },
+        { labelKey: 'parentMobileVideo', url: 'https://drive.google.com/file/d/14sQebsn-9I5Y71fHsAfOfKyIlOMsruEt/view?usp=sharing' }
+      ]
+    },
+    {
+      isAI: false,
+      skills: ['canva', 'capcut'],
+      img: '/Gallery/animasyon.png',
+      link: 'https://drive.google.com/file/d/1y8D0Oj86erepY6KSBM6-ZSTzEMbE3ws8/view?usp=sharing'
+    }
   ];
 
   const projectsList = projectsBase.map((p, i) => ({
@@ -663,9 +707,25 @@ const Projects = () => {
                 </div>
               )}
 
-              <a href={modalData.link} target="_blank" rel="noopener noreferrer" className="btn primary-btn">
-                {modalData.link.includes('admin') ? t.projects.adminPanel : t.projects.viewLive}
-              </a>
+              {modalData.videos ? (
+                <div className="modal-videos">
+                  {modalData.videos.map((vid, idx) => (
+                    <a
+                      key={idx}
+                      href={vid.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn primary-btn"
+                    >
+                      {t.projects.videoLabels[vid.labelKey]}
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <a href={modalData.link} target="_blank" rel="noopener noreferrer" className="btn primary-btn">
+                  {modalData.link.includes('admin') ? t.projects.adminPanel : t.projects.viewLive}
+                </a>
+              )}
             </div>
           </div>
         </div>
