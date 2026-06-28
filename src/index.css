@@ -1308,8 +1308,10 @@ nav {
   }
 
   .hex h1 {
-    font-size: 0.8rem !important;
+    font-size: 0.75rem !important;
     padding-top: 25% !important;
+    bottom: 54% !important;
+    line-height: 1.2 !important;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
@@ -1317,6 +1319,7 @@ nav {
   .hex p.hex-desc {
     font-size: 0.6rem !important;
     padding-bottom: 25% !important;
+    top: 54% !important;
     line-height: 1.2;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
