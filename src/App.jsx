@@ -621,7 +621,6 @@ const Projects = () => {
       ]
     },
     {
-      isAI: false,
       skills: ['canva', 'capcut'],
       img: '/Gallery/animasyon.png',
       link: 'https://drive.google.com/file/d/1y8D0Oj86erepY6KSBM6-ZSTzEMbE3ws8/view?usp=sharing'
@@ -667,9 +666,11 @@ const Projects = () => {
           <li className="hex" key={idx}>
             <a className="hexIn" href="#modal" onClick={(e) => openModal(proj, e)}>
               <img src={proj.img} alt={proj.title} />
-              <div className={`ai-badge ${proj.isAI ? 'ai' : 'no-ai'}`}>
-                {proj.isAI ? t.projects.aiBadge : t.projects.humanBadge}
-              </div>
+              {proj.isAI !== undefined && (
+                <div className={`ai-badge ${proj.isAI ? 'ai' : 'no-ai'}`}>
+                  {proj.isAI ? t.projects.aiBadge : t.projects.humanBadge}
+                </div>
+              )}
               <h1>{proj.title}</h1>
               <p className="hex-desc">{t.projects.viewDetails}</p>
             </a>
@@ -684,9 +685,11 @@ const Projects = () => {
             <img src={modalData.img} alt={modalData.title} />
             <div className="modal-info">
               <h2>{modalData.title}</h2>
-              <div className={`modal-ai-badge ${modalData.isAI ? 'ai' : 'no-ai'}`}>
-                {modalData.isAI ? t.projects.aiAssisted : t.projects.humanCode}
-              </div>
+              {modalData.isAI !== undefined && (
+                <div className={`modal-ai-badge ${modalData.isAI ? 'ai' : 'no-ai'}`}>
+                  {modalData.isAI ? t.projects.aiAssisted : t.projects.humanCode}
+                </div>
+              )}
               <p>{modalData.desc}</p>
 
               {modalData.skills && modalData.skills.length > 0 && (
